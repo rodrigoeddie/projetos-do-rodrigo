@@ -1,0 +1,54 @@
+[
+  {
+    "name": "icons-list",
+    "path": "/_icons",
+    "component": "/mnt/d/RODRIGO/sites/projetos-do-rodrigo/node_modules/@nuxtjs/svg-sprite/lib/pages/icons-list.vue",
+    "url": "/_icons",
+    "_name": "_50722131"
+  },
+  {
+    "name": "404",
+    "path": "/404",
+    "component": "/mnt/d/RODRIGO/sites/projetos-do-rodrigo/src/pages/404.vue",
+    "chunkName": "pages/404",
+    "url": "/404",
+    "_name": "_9faa9880"
+  },
+  {
+    "name": "projetos",
+    "path": "/projetos",
+    "component": "/mnt/d/RODRIGO/sites/projetos-do-rodrigo/src/pages/projetos/index.vue",
+    "chunkName": "pages/projetos/index",
+    "url": "/projetos",
+    "_name": "_4232f8db"
+  },
+  {
+    "name": "sobre",
+    "path": "/sobre",
+    "component": "/mnt/d/RODRIGO/sites/projetos-do-rodrigo/src/pages/sobre.vue",
+    "chunkName": "pages/sobre",
+    "url": "/sobre",
+    "_name": "_51e6c841"
+  },
+  {
+    "name": "projetos-slug",
+    "path": "/projetos/:slug",
+    "component": "/mnt/d/RODRIGO/sites/projetos-do-rodrigo/src/pages/projetos/_slug.vue",
+    "chunkName": "pages/projetos/_slug",
+    "_name": "_407c5793"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/mnt/d/RODRIGO/sites/projetos-do-rodrigo/src/pages/index.vue",
+    "chunkName": "pages/index",
+    "url": "/",
+    "_name": "_74027a5a"
+  },
+  {
+    "name": "custom",
+    "path": "*",
+    "component": "/mnt/d/RODRIGO/sites/projetos-do-rodrigo/src/pages/404.vue",
+    "_name": "_9faa9880"
+  }
+]

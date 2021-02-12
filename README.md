@@ -1,4 +1,5 @@
-# my-first-nuxt-app
+# Projetos do rodrigo
+Projeto básico para reunir meus trabalhos no passado, presente, e futuro.
 
 ## Build Setup
 

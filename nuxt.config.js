@@ -1,7 +1,8 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'my-first-nuxt-app',
+    title: 'Home',
+    titleTemplate: '%s - Projetos do Rodrigo',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -16,9 +17,11 @@ export default {
     id: 'GTM-XXXXXXX'
   },
 
+  target: 'static',
+
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
-    '~/assets/styles/main.scss'
+    '~/assets/styles/main.scss',
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -44,7 +47,7 @@ export default {
 
   styleResources: {
     scss: [
-      './assets/css/*.scss',
+      './assets/styles/*.scss',
     ]
   },
 
@@ -63,8 +66,16 @@ export default {
   },
 
   buildDir: 'build',
-  generate: {
-    dir: 'build'
+  // generate: {
+  //   routes: function() {
+  //     return [
+  //       '/projetos/projeto-01'
+  //     ]
+  //   }
+  // },
+
+  sitemap: {
+    hostname: 'https://example.com',
   },
 
   srcDir: 'src/',
@@ -80,6 +91,7 @@ export default {
   },
 
   router: {
+    base: '/projetos-do-rodrigo/dist/',
     extendRoutes(routes, resolve) {
       routes.push({
         name: 'custom',

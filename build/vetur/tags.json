@@ -1,4 +1,10 @@
 {
+  "CardProject": {
+    "description": "Auto imported from /components/CardProject.vue"
+  },
+  "LazyCardProject": {
+    "description": "Auto imported from /components/CardProject.vue"
+  },
   "Header": {
     "description": "Auto imported from /components/Header.vue"
   },

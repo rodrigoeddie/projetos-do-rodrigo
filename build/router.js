@@ -22,7 +22,7 @@ Vue.use(Router)
 
 export const routerOptions = {
   mode: 'history',
-  base: '/',
+  base: '/projetos-do-rodrigo/dist/',
   linkActiveClass: 'active-parent',
   linkExactActiveClass: 'active',
   scrollBehavior,

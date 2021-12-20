@@ -1,7 +1,7 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'Home',
+    title: '1',
     titleTemplate: '%s - Projetos do Rodrigo',
     meta: [
       { charset: 'utf-8' },
@@ -10,7 +10,11 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [
+      { src: '@/assets/scripts/vendor/greensock-js/TweenLite.js' },
+      { src: '@/assets/scripts/vendor/luego/Is.js' },
+    ],
   },
 
   gtm: {
@@ -21,11 +25,12 @@ export default {
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
-    '~/assets/styles/main.scss',
+    '@/assets/styles/main.scss',
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
+    '@/plugins/jsonld'
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -33,6 +38,7 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
+    '@/modules/dark-mode'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -47,12 +53,12 @@ export default {
 
   styleResources: {
     scss: [
-      './assets/styles/*.scss',
+      '@/assets/styles/*.scss',
     ]
   },
 
   svgSprite: {
-    input: '~/assets/images/sprites/'
+    input: '@/assets/images/sprites/'
   },
 
   loading: {

@@ -5,7 +5,7 @@
         <CardProject
             v-for="project in projects"
             :key="project.slug"
-            :slug="project.slug"
+            :data="project.slug"
             :name="project.name"
             :thumb="project.thumb"
             :year="project.year"

@@ -3,8 +3,8 @@ $path-font:             '../fonts';
 $path-img:              '../images';
 
 // FONT FAMILIES
-$myriad:                'MyriadWebPro, Arial', Helvetica, sans-serif;
-$times:                 'Times New Roman', 'Georgia', serif;
+$font:                'Quicksand', Helvetica, sans-serif;
+
 
 // COLORS Logo
 $color-logo-1:               #f00;
@@ -13,8 +13,11 @@ $color-logo-2:               #333;
 // Other Colors
 $color-1:               #fff;
 $color-2:               #000;
+$color-3:               #ffe715;
 
 // Named variables
 $color-placeholder:     $color-2;
 $color-success:         $color-2;
 $color-error:           $color-2;
+
+$yellow:               $color-3;
